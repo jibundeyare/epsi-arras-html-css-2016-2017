@@ -16,6 +16,21 @@ sources : [Photo by Austin Neill | Unsplash](https://unsplash.com/?photo=0A_b9G-
 
 licence : [Creative Commons — CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
+### Icônes
+
+fichiers : iconmonstr-check-mark-4-48.png
+
+sources : [Check Mark 4 - PNG - iconmonstr](http://iconmonstr.com/check-mark-4/?png)
+
+licence : [License Agreement - iconmonstr](http://iconmonstr.com/license/)
+
+
+fichiers : iconmonstr-x-mark-4-24.png
+
+sources : [X Mark 4 - PNG - iconmonstr](http://iconmonstr.com/x-mark-4/?png)
+
+licence : [License Agreement - iconmonstr](http://iconmonstr.com/license/)
+
 ## Autres resources
 
 Compatibilité navigateur / fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
