@@ -18,7 +18,7 @@ licence : [Creative Commons — CC0 1.0 Universal](https://creativecommons.org/p
 
 ## Autres resources
 
-Compatibilité navigateurs / fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
+Compatibilité navigateur / fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
 
 Validation html4 : [The W3C Markup Validation Service](https://validator.w3.org/)
 
