@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>titre</title>
+	</head>
+	<body>
+
+		<form action="" method="post" enctype="multipart/form-data">
+			<!-- upload d'un seul fichier -->
+			<div>
+				<input type="file" name="fichier" />
+			</div>
+			<!-- upload de plusieurs fichiers -->
+			<div>
+				<input type="file" name="fichiers[]" multiple="" />
+			</div>
+			<!-- question à choix multiple -->
+			<div>
+				<div>
+					<input type="checkbox" name="fruits[]" id="pomme" value="pomme" /> <label for="pomme">pomme</label>
+				</div>
+				<div>
+					<input type="checkbox" name="fruits[]" id="orange" value="orange" /> <label for="orange">orange</label>
+				</div>
+				<div>
+					<input type="checkbox" name="fruits[]" id="fraise" value="fraise" /> <label for="fraise">fraise</label>
+				</div>
+			</div>
+			<!-- question à choix unique -->
+			<div>
+				<div>
+					<input type="radio" name="couleur" value="rose" id="rose" /> <label for="rose">rose</label>
+				</div>
+				<div>
+					<input type="radio" name="couleur" value="vert" id="vert" /> <label for="vert">vert</label>
+				</div>
+				<div>
+					<input type="radio" name="couleur" value="bleu" id="bleu" /> <label for="bleu">bleu</label>
+				</div>
+			</div>
+			<div>
+				<input type="submit" value="envoyer" />
+			</div>
+		</form>
+
+	</body>
+</html>
