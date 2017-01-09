@@ -25,9 +25,9 @@ sources : [Check Mark 4 - PNG - iconmonstr](http://iconmonstr.com/check-mark-4/?
 licence : [License Agreement - iconmonstr](http://iconmonstr.com/license/)
 
 
-fichiers : iconmonstr-x-mark-4-24.png
+fichiers : iconmonstr-trash-can-1-24.png
 
-sources : [X Mark 4 - PNG - iconmonstr](http://iconmonstr.com/x-mark-4/?png)
+sources : [Trash Can 1 - PNG - iconmonstr](http://iconmonstr.com/trash-can-1/?png)
 
 licence : [License Agreement - iconmonstr](http://iconmonstr.com/license/)
 
