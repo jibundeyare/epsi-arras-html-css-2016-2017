@@ -1,0 +1,19 @@
+h1, a {
+	color: darkorange;
+}
+
+#image-bg {
+	background-color: pink;
+}
+
+.article {
+	color: white;
+}
+
+.article h2 {
+	font-style: italic;
+}
+
+.article .bold {
+	font-weight: bold;
+}
