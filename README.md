@@ -13,6 +13,12 @@ Ce repo contient le code écrit durant le cours de html et css à EPSI Arras, se
 		css/
 			style.css
 			*.css
+    img/
+      *.gif
+      *.jpg
+      *.jpeg
+      *.png
+      *.svg
 		js/
 			script.js
 			*.js
