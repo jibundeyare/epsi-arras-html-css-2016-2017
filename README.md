@@ -4,6 +4,22 @@
 
 Ce repo contient le code écrit durant le cours de html et css à EPSI Arras, session 2016-2017.
 
+## Structure type d'un projet html / css / js statique
+
+	document-root/
+		bower_components/
+			bootstrap/
+			jquery/
+		css/
+			style.css
+			*.css
+		js/
+			script.js
+			*.js
+		bower.json
+		index.html
+		*.html
+
 ## Medias
 
 Voici les sources des médias utilisés.
