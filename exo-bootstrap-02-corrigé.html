@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1" />
-	    <title>titre</title>
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>titre</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+  </head>
+  <body>
 
-		<!--
-		champs du formulaire :
-		- nom
-		- prénom
-		- date de naissance
-		- identifiant
-		- mot de passe
-		- email
-		-->
+    <!--
+    champs du formulaire :
+    - nom
+    - prénom
+    - date de naissance
+    - identifiant
+    - mot de passe
+    - email
+    -->
 
-		<div class="container">
-			<header class="row">
-				<div class="col-md-12">
-					<h1>Titre de la page</h1>
-				</div>
-			</header>
+    <div class="container">
 
-			<section class="row">
-				<div class="col-md-8 col-md-offset-4">
-					<form action="" method="post" enctype="multipart/form-data">
-						<div class="form-group">
-							<label>Nom</label>
-							<input type="text" class="form-control" id="nom" name="nom" placeholder="votre nom" />
-						</div>
-						<div class="form-group">
-							<label>Prénom</label>
-							<input type="text" class="form-control" id="prenom" name="prenom" placeholder="votre prénom" />
-						</div>
-						<div class="form-group">
-							<label>Date de naissance</label>
-							<input type="date" class="form-control" id="date-naissance" name="date_naissance" placeholder="votre date de naissance" />
-						</div>
-						<div class="form-group">
-							<label>Identifiant</label>
-							<input type="text" class="form-control" id="identifiant" name="identifiant" placeholder="votre identifiant" />
-						</div>
-						<div class="form-group">
-							<label>Mot de passe</label>
-							<input type="password" class="form-control" id="mot-de-passe" name="mot_de_passe" placeholder="votre mot de passe" />
-						</div>
-						<div class="form-group">
-							<label>Email</label>
-							<input type="email" class="form-control" id="email" name="email" placeholder="votre email" />
-						</div>
-						<div class="form-group">
-							<input type="submit" class="btn btn-default" value="valider" />
-						</div>
-					</form>
-				</div>
-			</section>
-		</div>
+      <header class="row">
+        <div class="col-md-12">
+          <h1>Titre de la page</h1>
+        </div>
+      </header>
 
-	</body>
+      <!-- 1 colonne en 2/3 (1 bloc de 8 subdivisions avec un décalage de 4 subdivisions) -->
+      <section class="row">
+        <div class="col-md-8 col-md-offset-4">
+
+          <!-- un formulaire -->
+          <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label>Nom</label>
+              <input type="text" class="form-control" id="nom" name="nom" placeholder="votre nom" />
+            </div>
+            <div class="form-group">
+              <label>Prénom</label>
+              <input type="text" class="form-control" id="prenom" name="prenom" placeholder="votre prénom" />
+            </div>
+            <div class="form-group">
+              <label>Date de naissance</label>
+              <input type="date" class="form-control" id="date-naissance" name="date_naissance" placeholder="votre date de naissance" />
+            </div>
+            <div class="form-group">
+              <label>Identifiant</label>
+              <input type="text" class="form-control" id="identifiant" name="identifiant" placeholder="votre identifiant" />
+            </div>
+            <div class="form-group">
+              <label>Mot de passe</label>
+              <input type="password" class="form-control" id="mot-de-passe" name="mot_de_passe" placeholder="votre mot de passe" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="votre email" />
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-default" value="valider" />
+            </div>
+          </form>
+
+        </div>
+      </section>
+
+    </div><!-- /.container -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1" />
-	    <title>titre</title>
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>titre</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+  </head>
+  <body>
 
-	    <div class="container">
-	    	<div class="row">
-	    		<div class="col-xs-12">
-	    			<h1>Test de bootstrap</h1>
-	    		</div>
-	  		</div>
+    <div class="container">
 
-	  		<div class="row">
-	  			<div class="col-xs-12 col-md-6">
-	  				<p>
-		  				6 colonnes en médium<br />
-		  				12 colonnes en extra-small
-		  			</p>
-	  			</div><!-- /.col-xs-12.col-md-6 -->
-	  			<div class="col-xs-12 col-md-6">
-	  				<p>
-		  				6 colonnes en médium<br />
-		  				12 colonnes en extra-small
-		  			</p>
-	  			</div><!-- /.col-xs-12.col-md-6 -->
-	  		</div><!-- /.row -->
+      <!-- 1 colonne (1 bloc de 12 subdivisions) en écran extra-small et plus grands -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Test de bootstrap</h1>
+        </div>
+      </div>
 
-		    <div class="row">
-		    	<div class="col-xs-12 col-md-6">
-		    		<img src="img/0a_b9g-rm6w-austin-neill-160x106.jpg" alt="un image" />
-		    	</div>
+      <!-- 1 colonne (1 bloc de 12 subdivisions) en écran extra-small et plus grands -->
+      <!-- 2 colonnes (2 blocs de 6 subdivisions) en écran medium et plus grands -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>colonne 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h2>colonne 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus dui, non tristique quam.
+          </p>
+        </div>
+      </div>
 
-		    	<div class="col-xs-12 col-md-6 ">
-		    		<img class="hidden-md hidden-lg" src="img/0a_b9g-rm6w-austin-neill-160x106.jpg" alt="un image" />
-		    	</div>
-		    </div>
+      <!-- 1 colonne (1 bloc de 12 subdivisions) en écran medium et plus grands -->
+      <!-- 3 colonnes (3 blocs de 4 subdivisions) en écran extra-small et plus grands -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>colonne 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>colonne 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus dui, non tristique quam.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>colonne 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus dui, non tristique quam. Donec vehicula metus at mauris accumsan, fermentum interdum ante ullamcorper.
+          </p>
+        </div>
+      </div>
 
-	    </div><!-- /.container -->
+      <!-- 1 colonne (1 bloc de 12 subdivisions) en écran medium et plus grands -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>colonne 1</h2>
+          <!-- élément visible en écran medium et large -->
+          <img class="visible-md-inline visible-lg-inline" src="img/0a_b9g-rm6w-austin-neill-160x106.jpg" alt="un image" />
+        </div>
+      </div>
 
-		</body>
+      <!-- 1 colonne (1 bloc de 12 subdivisions) en écran medium et plus grands -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>colonne 1</h2>
+          <!-- élément caché en écran medium et large -->
+          <img class="hidden-md hidden-lg" src="img/0a_b9g-rm6w-austin-neill-160x106.jpg" alt="un image" />
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
