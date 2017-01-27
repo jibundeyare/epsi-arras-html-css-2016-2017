@@ -1,8 +1,8 @@
-# Cours de html et css (2016-2017)
+# Cours de html & css (2016-2017)
 
 ## Description
 
-Ce repo contient le code écrit durant le cours de html et css à EPSI Arras, session 2016-2017.
+Ce repo contient le code écrit durant le cours de html & css à EPSI Arras, session 2016-2017.
 
 ## Installation
 
@@ -13,33 +13,34 @@ Ensuite installez les dépendances avec bower :
     cd epsi-arras-html-css-2016-2017
     bower install
 
-## Structure type d'un projet html / css / js statique
+## Structure type d'un projet html, css & js statique
 
-	document-root/
-		bower_components/
-			bootstrap/
-			jquery/
-		css/
-			style.css
-			*.css
-    img/
-      *.gif
-      *.jpg
-      *.jpeg
-      *.png
-      *.svg
-		js/
-			script.js
-			*.js
-		bower.json
-		index.html
-		*.html
+    document-root/
+      bower_components/
+        bootstrap/
+        jquery/
+      css/
+        style.css
+        *.css
+      img/
+        *.gif
+        *.jpg
+        *.jpeg
+        *.png
+        *.svg
+      js/
+        script.js
+        *.js
+      bower.json
+      index.html
+      *.html
 
-## Déboguez votre code html / css
+## Déboguez votre code html & css
 
 - tester la compatibilité des navigateurs avec une fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
-- validation du code html4 : [The W3C Markup Validation Service](https://validator.w3.org/)
-- validation du code html5 : [Ready to check - Nu Html Checker](https://validator.w3.org/nu/)
+- validation de code html4 : [The W3C Markup Validation Service](https://validator.w3.org/)
+- validation de code html5 : [Ready to check - Nu Html Checker](https://validator.w3.org/nu/)
+- validation de code css : [Service de validation CSS du W3C](https://jigsaw.w3.org/css-validator/)
 
 ## Pour aller plus loin en css
 
